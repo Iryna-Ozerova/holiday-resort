@@ -5,12 +5,12 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.container {
-  min-width: 1054px;
+[class*='__container'] {
+  max-width: 1054px;
   padding-inline: 15px;
-  /*
-  padding-left: ;
-  padding-right: ;
-  */
   margin: 0 auto;
+}
+
+.wrapper {
+  min-height: 100%;
 }
